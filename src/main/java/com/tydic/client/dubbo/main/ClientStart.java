@@ -6,7 +6,8 @@ public class ClientStart {
 
 	public static void main(String[] args) {
 		ChatAction act = new ChatAction();  
-        act.SayHello(); 
+        act.SayHello();
+        System.out.println("github 测试!");
 	}
 
 }
