@@ -16,6 +16,6 @@ public class ChatAction {
 	    context.start();  
 	    DemoServer demoServer = (DemoServer) context.getBean("demoService");  
 	    
-	    log.info("client:"+demoServer.sayHello("Morning"+"1:"+new Date())+"--3:"+new Date());
+	    log.info("client:"+demoServer.sayHello("Morning"+"1:"+new Date())+"--3:"+new Date()+"我是客户端");
 	    }  
 }
